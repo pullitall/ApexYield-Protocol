@@ -1,0 +1,23 @@
+{
+  "name": "@apexyield/mcp-server",
+  "version": "0.1.0",
+  "description": "Model Context Protocol (MCP) server for ApexYield on Solana - Autonomous Bounty Execution for AI Agents",
+  "main": "dist/index.js",
+  "bin": {
+    "apexyield-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "@solana/web3.js": "^1.95.3",
+    "@solana/spl-token": "^0.4.8",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/node": "^20.14.9"
+  }
+}
