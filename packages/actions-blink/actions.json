@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {
+      "pathPattern": "/api/actions/fund-bounty/*",
+      "apiPath": "/api/actions/fund-bounty/*"
+    },
+    {
+      "pathPattern": "/api/actions/settle/*",
+      "apiPath": "/api/actions/settle/*"
+    }
+  ]
+}
