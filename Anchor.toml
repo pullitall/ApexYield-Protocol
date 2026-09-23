@@ -1,0 +1,26 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+apexyield_core = "ApexYieLd11111111111111111111111111111111111"
+
+[programs.devnet]
+apexyield_core = "ApexYieLd11111111111111111111111111111111111"
+
+[programs.mainnet]
+apexyield_core = "ApexYieLd11111111111111111111111111111111111"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+build = "anchor build"
+deploy = "anchor deploy --provider.cluster devnet"
