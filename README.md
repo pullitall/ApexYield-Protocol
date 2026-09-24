@@ -2,21 +2,22 @@
 
 [![Solana](https://img.shields.io/badge/Solana-Devnet_%26_Mainnet-9945FF?style=for-the-badge&logo=solana&logoColor=white)](https://solana.com)
 [![Anchor](https://img.shields.io/badge/Anchor-v0.30.1-black?style=for-the-badge&logo=rust&logoColor=white)](https://anchor-lang.com)
-[![Superteam Ukraine](https://img.shields.io/badge/Superteam_Ukraine-Official_Submission-0057B7?style=for-the-badge&labelColor=0057B7&color=FFDD00)](https://superteam.fun)
-[![Assets](https://img.shields.io/badge/Assets-USDG_%26_USDC-14F195?style=for-the-badge)](https://globaldollar.com)
+[![Superteam Global](https://img.shields.io/badge/Superteam-Global_Ecosystem-9945FF?style=for-the-badge&logo=solana&logoColor=white)](https://superteam.fun)
+[![Solana Foundation Grants](https://img.shields.io/badge/Solana_Foundation-Developer_Grants-14F195?style=for-the-badge)](https://solana.org/grants)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-> **Superteam Ukraine Bounty Track:** *"Get a realistic dev roadmap for your project"*  
-> **Target Reward:** 150 USDG  
+> **Track:** Solana Foundation Developer Tooling & Superteam Global Grant  
+> **Target Grant:** $10,000 Initial Foundation Target  
 > **Author / Submitter:** [@pullitall](https://github.com/pullitall)  
+> **Official Solana Deployer / Treasury Wallet:** `FhthDcQ1UhdRetMXtEurj6YM24xiwTAZJc4WADmr9EB8`  
 > **Ecosystem Stack:** Solana (Anchor, SPL-Token, Solana Actions/Blinks, Solana Pay) + GitHub Apps API + Rust Oracle + Model Context Protocol (MCP)
 
 ---
 
-## 🎮 Live Interactive Protocol Simulator
+## 🌐 Official Live Protocol Website & Simulator
 
-Experience the 1-click Solana Blink funding, autonomous AI agent resolution, and < 400ms on-chain settlement right in your browser:
-👉 **[Open ApexYield Interactive Simulator (`index.html`)](https://htmlpreview.github.io/?https://github.com/pullitall/ApexYield-Protocol/blob/main/index.html)**
+Experience the 1-click Solana Blink funding, autonomous AI agent resolution, and < 400ms on-chain settlement live on Solana Devnet:
+👉 **[Launch ApexYield Protocol (`pullitall.github.io/ApexYield-Protocol`)](https://pullitall.github.io/ApexYield-Protocol/)**
 
 ---
 
@@ -85,9 +86,14 @@ pullitall/ApexYield-Protocol/
 │   ├── mcp-server/                  # Model Context Protocol for AI Agents
 │   │   ├── package.json
 │   │   └── src/index.ts             # Tools: search_bounties, claim, submit_proof
-│   └── actions-blink/               # Solana Actions / Blinks Specification
-│       ├── actions.json
-│       └── src/index.ts             # 1-Click Bounty Funding Blink Handler
+│   ├── actions-blink/               # Solana Actions / Blinks Specification
+│   │   ├── actions.json
+│   │   └── src/index.ts             # 1-Click Bounty Funding Blink Handler
+│   └── wearable-pay/                # 👓 ApexGlass: AI Smart Glasses & Omi Solana Pay System
+│       ├── package.json
+│       ├── src/index.ts             # Camera Optical QR & Voice Settlement Engine
+│       ├── src/omi_plugin.py        # BasedHardware/Omi Wearable Plugin
+│       └── README.md                # Hardware Specification & Voice Integration Guide
 └── README.md                        # Master Dev Roadmap & Technical Spec
 ```
 
@@ -143,12 +149,12 @@ ApexYield sustains operations through a clean, non-extractive fee model:
 
 ---
 
-## 8. Why ApexYield Wins the Superteam Ukraine Bounty
+## 8. Why ApexYield Qualifies for Solana Foundation & Superteam Grants
 
-1. **Addresses Real Pain Points**: Solves the exact frustration that every Superteam and open-source contributor experiences: unescrowed promises and weeks of payment delay.
-2. **Deep Solana Alignment**: Leverages Solana's unique competitive advantages—sub-second finality, micro-cent transaction fees, and Blinks/Actions—capabilities impossible on Ethereum or L2s.
+1. **Addresses Critical Web3 Infrastructure**: Bridges GitHub CI/CD with Solana on-chain liquidity, enabling autonomous AI software developer agents to earn and settle without banking friction.
+2. **Deep Solana Alignment**: Leverages Solana's unique competitive advantages—sub-second finality, micro-cent transaction fees, and Blinks/Actions—capabilities impossible on Ethereum or EVM L2s.
 3. **Institutional Polish**: Backed by actual Anchor Rust contract code, concrete PDA seed equations, an active MCP server, and a measurable 12-week timeline.
-4. **Interactive Working Prototype**: Features a live web simulator demonstrating the entire lifecycle end-to-end.
+4. **Interactive Working Prototype**: Features a live web simulator and live Devnet RPC connection demonstrating the entire lifecycle end-to-end.
 
 ---
 
@@ -172,4 +178,4 @@ npm install && npm start
 
 ---
 
-*Authored by [@pullitall](https://github.com/pullitall) for Superteam Ukraine.*
+*Authored by [@pullitall](https://github.com/pullitall) for the Solana Global Ecosystem & Developer Tooling.*
