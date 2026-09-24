@@ -1,0 +1,32 @@
+{
+  "name": "@apexyield/wearable-pay",
+  "version": "1.0.0",
+  "description": "Autonomous Solana Pay & Voice Settlement Engine for AI Smart Glasses (Omi / Meta Ray-Ban)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/index.js --demo"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.8",
+    "@solana/pay": "^0.2.5",
+    "@solana/spl-token": "^0.4.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.11.0"
+  },
+  "keywords": [
+    "solana",
+    "solana-pay",
+    "smartglasses",
+    "omi",
+    "wearables",
+    "ai-agents",
+    "voice-pay",
+    "crypto-payments"
+  ],
+  "author": "pullitall",
+  "license": "MIT"
+}
